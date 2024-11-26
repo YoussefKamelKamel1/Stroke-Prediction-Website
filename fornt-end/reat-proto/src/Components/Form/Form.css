@@ -1,0 +1,87 @@
+/* Form component styles */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .left-section {
+    flex: 1;
+  }
+  
+  .right-section {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  /* Form styles */
+  .form {
+    font-family: Arial, sans-serif;
+  }
+  
+  .form h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .form form {
+    margin-bottom: 20px;
+  }
+  
+  .form .dropdown {
+    margin-bottom: 15px;
+  }
+  
+  .form label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .form select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Prediction outputs styles */
+  .right-section h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .right-section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .input-field {
+    width: 30%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: dodgerblue;
+    box-shadow: 0 0 5px dodgerblue;
+  }
+  
